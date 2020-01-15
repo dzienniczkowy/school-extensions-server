@@ -1,0 +1,23 @@
+{
+  "name": "school-extensions-server",
+  "version": "0.1.0",
+  "description": "School extensions server library",
+  "main": "index.js",
+  "dependencies": {
+    "fastify": "^2.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "server": "node example/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wulkanowy/school-extensions-server.git"
+  },
+  "author": "Wulkanowy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wulkanowy/school-extensions-server/issues"
+  },
+  "homepage": "https://github.com/wulkanowy/school-extensions-server#readme"
+}
