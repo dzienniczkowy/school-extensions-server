@@ -30,7 +30,7 @@ function setServerInfo(author, email, bugs) {
 function addSchool(symbol, schoolId, integrations) {
     const url = `/${symbol}/${schoolId}`;
     schools.push(url);
-    fastify.get(`$url/`, (request, response) => {
+    fastify.get(`${url}/`, (request, response) => {
         response.send({integrations: integrations})
     });
 
