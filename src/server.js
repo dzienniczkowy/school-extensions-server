@@ -42,7 +42,7 @@ function addLuckyNumber(school, handler) {
 }
 
 // Run the server!
-fastify.listen(3000, (err) => {
+fastify.listen(process.env.PORT || 3000, (err) => {
     if (err) {
         fastify.log.error(err);
         process.exit(1)
