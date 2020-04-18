@@ -8,7 +8,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "server": "node example/main.js"
+    "start": "node example/main.js"
   },
   "repository": {
     "type": "git",
